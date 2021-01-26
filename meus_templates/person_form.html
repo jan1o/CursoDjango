@@ -9,14 +9,10 @@
 </head>
 <body>
 
-    <ul>
-    {% for person in persons %}
-
-        <li>{{ person.first_name }}</li>
-
-    {% endfor %}
-    </ul>
-    <br>
-    <a href="{% url 'persons_new' %}"> Novo Cliente</a>
+    <form action="{% url 'persons_new' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Salvar</button>
+    </form>
 </body>
 </html>
