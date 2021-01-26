@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ce89db6-6040-4c1c-93b9-f3b8940992c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/clientes/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meus_templates/person_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meus_templates/person.html" beforeDir="false" afterPath="$PROJECT_DIR$/meus_templates/person.html" afterDir="false" />
-    </list>
+    <list default="true" id="0ce89db6-6040-4c1c-93b9-f3b8940992c1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +166,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.24962406" />
       <window_info anchor="bottom" id="TODO" order="6" />
