@@ -1,1 +1,1 @@
-Esse é um tutorial de um curso de Django que estou fazendo!!!!
+Esse é um tutorial de um curso de Django que estou fazendo!!!
