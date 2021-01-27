@@ -8,11 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-
+    <h1>Tem Certeza que Deseja Deletar {{person.first_name}}?</h1>
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form }}
-        <button type="submit">Salvar</button>
+        <button type="submit">Deletar</button>
     </form>
+
 </body>
 </html>

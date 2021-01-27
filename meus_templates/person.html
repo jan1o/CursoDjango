@@ -12,11 +12,23 @@
     <ul>
     {% for person in persons %}
 
-        <li>{{ person.first_name }}</li>
+        <li>
+            {{ person.first_name }}
+            <a href="{% url 'persons_update' person.id %}">
+                <button type="button">
+                    Update
+                </button>
+            </a>
+            <a href="{% url 'persons_delete' person.id %}">
+                <button type="button">
+                    Deletar
+                </button>
+            </a>
+        </li>
 
     {% endfor %}
     </ul>
     <br>
-    <a href="{% url 'persons_new' %}"> Novo Cliente</a>
+    <a href="{% url 'persons_new' %}"><button type="button">Novo Cliente</button></a>
 </body>
 </html>
